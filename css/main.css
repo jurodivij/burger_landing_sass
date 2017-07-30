@@ -85,8 +85,8 @@ ul {
   -ms-flex-align: center;
   align-items: center;
   position: absolute;
-  top: 98px;
-  left: 1042px; }
+  top: 82px;
+  left: 1028px; }
 
 .location__link:after {
   display: inline-block;
@@ -109,7 +109,7 @@ ul {
   min-height: 650px; }
 
 .container {
-  width: 940px;
+  width: 960px;
   margin: 0 auto;
   display: -webkit-box;
   display: -webkit-flex;
@@ -132,7 +132,7 @@ ul {
 .section {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.31);
-  min-width: 940px;
+  min-width: 960px;
   min-height: 650px; }
 
 .order-link {
@@ -180,13 +180,13 @@ ul {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: 10px; }
+  padding-top: 5px; }
 
 .header-logo {
   margin-right: auto; }
 
 .nav {
-  margin-right: 0.9375rem; }
+  margin-right: -12.75rem; }
 
 .nav__list {
   margin: 0;
@@ -259,8 +259,7 @@ ul {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center;
-  padding-bottom: 15%; }
+  align-items: center; }
 
 .hero__img, .hero__description {
   -webkit-flex-basis: 50%;
@@ -275,7 +274,9 @@ ul {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 11%;
+  padding-left: 2.5%; }
 
 .hero__description {
   -webkit-box-orient: vertical;
@@ -286,7 +287,9 @@ ul {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  padding-bottom: 10%;
+  padding-left: 1%; }
 
 .section__title {
   color: #f9b43b;
@@ -300,9 +303,10 @@ ul {
 .hero__description-text {
   color: #ffffff;
   font-family: 'Lifehack';
-  font-size: 65px;
+  font-size: 62px;
   font-weight: 500;
-  line-height: 1; }
+  line-height: 1;
+  padding-top: 2%; }
 
 .best {
   background-image: url("../img/bg/best_bg.png");
@@ -322,11 +326,10 @@ ul {
 .section__title--best {
   color: #2f3234;
   padding: 0;
-  margin-bottom: 3.75rem; }
+  margin-bottom: 0.625rem; }
 
 .best__list {
-  margin: 0px;
-  padding: 0px; }
+  margin-bottom: 3.125rem; }
 
 .best__item {
   display: inline-block;
@@ -343,7 +346,7 @@ ul {
 .best__caption {
   color: #2f3234;
   font-family: "Lifehack", "Arial", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 28px;
   font-weight: bold; }
 

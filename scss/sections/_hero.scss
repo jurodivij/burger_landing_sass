@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between; //первый блок располагается в начале главной оси, последний блок – в конце, все остальные блоки равномерно распределены в оставшемся пространстве.
     align-items: center;    //блоки располагаются в центре поперечной оси
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .header-logo {
@@ -19,11 +19,12 @@
 }
 
 .nav {
-    margin-right: rem(15px);
+    margin-right: rem(-204px);
 }
 
 .nav__list {
     margin: 0;
+    //margin-left: 20px;
     padding: 0;
 }
 
@@ -72,7 +73,6 @@
   flex-wrap: wrap;  //блоки расположены в несколько горизонтальных рядов (если не помещаются в один ряд). Они следуют друг за другом слева направо
   flex-grow: 1;     //все блоки внутри класса будут одинакового размера
   align-items: center;
-  padding-bottom: 15%;
 }
 
 .hero__img, .hero__description {
@@ -82,11 +82,15 @@
 
 .hero__img {
   align-items: center;
+  padding-bottom: 11%;
+  padding-left: 2.5%;
 }
 
 .hero__description {
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 10%;
+  padding-left: 1%;  
 }
 
 .section__title {
@@ -102,8 +106,9 @@
 .hero__description-text {
   color: #ffffff;
   font-family: 'Lifehack';
-  font-size: 65px;
+  font-size: 62px;
   font-weight: 500;
   line-height: 1;
+  padding-top: 2%;
 }
 
