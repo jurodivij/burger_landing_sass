@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  line-height: 1.42;
+  color: $dark;
+}
+
+*, *::before, *::after { 
+  box-sizing: border-box; 
+}
+
+body, html {
+  height: 100%;
+  width: 1100px;
+}
+
+.visuallyhidden:not(:focus):not(:active) {    //чтобы что-то скрыть наверняка
+  position: absolute;
+  
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.location__list {
+  display:flex;
+  flex-direction: column; //в столбец
+  flex-wrap: nowrap;    //блоки не переносятся
+  align-items: center;
+  position: absolute;
+  top: 98px;
+  left: 1042px;
+}
+.location__link {
+//    display: inline-block;
+//   vertical-align: middle;     //выравнивает элемент по середине
+//    white-space: nowrap;        //пробелы не учитываются
+
+
+    &:after {
+        display: inline-block;
+        vertical-align: middle;
+        content: ' ';
+        @include circle(5px, #fff);
+        margin: 0 12px;
+    }
+}

@@ -1,0 +1,48 @@
+.best {
+    background-image: url('../img/bg/best_bg.png');
+    background-repeat: no-repeat;
+    background-position: 50%;   //выравниваем по центру в оригинале center bottom
+    background-size: cover;     //масштабируем под блок с сохр. пропорций
+    position: relative;
+    display:flex;
+    align-items: center;
+
+}
+
+.section__title--best {
+  color: #2f3234;
+  padding: 0;
+  margin-bottom: rem(60px);
+}
+
+.best__list {
+ //   display: flex;
+ //   flex-wrap: wrap;
+ //   flex-grow: 1;
+ //   align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.best__item {
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.best__text {
+  color: #2f3234;
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.best__caption {
+    color: #2f3234;
+    font-family: "Lifehack", "Arial", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
